@@ -788,8 +788,8 @@ ion-icon{
   top: 0;
   bottom: 0;
   right: 0;
-  width: 100%;
-  max-width: 100%; /* Ensures it doesn't extend beyond viewport width */
+  width: 80%; /* Adjust as needed */
+  max-width: 100%; /* Ensures it doesn't exceed viewport width */
   height: 100%;
   z-index: 100;
   background-color: #fff;
@@ -803,6 +803,14 @@ ion-icon{
   flex-direction: column;
   transition: all 0.6s ease;
 }
+
+@media (min-width: 576px) {
+  .navbar-mobile {
+    width: 50%;
+    max-width: 32rem;
+  }
+}
+
 
 @media (min-width: 576px) {
   .navbar-mobile {
