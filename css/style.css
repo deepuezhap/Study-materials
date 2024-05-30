@@ -888,7 +888,11 @@ ion-icon{
   height: 100%;
 }
 
-
+@media (max-width: 991px) {
+  .navbar-desctop {
+    margin-right: 0 !important;
+  }
+}
 /* 2.4 Navbar White */
 
 
